@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "special_effect_app"
+version = "0.1.0"
+description = "A PyQt5 application for applying special effects on images."
+authors = ["Your Name <your_email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyQt5 = "*"
+opencv-python = "*"
+numpy = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.core.masonry.api"
